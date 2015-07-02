@@ -5,6 +5,8 @@ import collections
 import numpy as np
 
 # Making a csv file into a Data Frame.
+# The data is available at https://data.cityofnewyork.us/Business/NYC-Jobs/kpav-sd4t
+# Click on export and download as CSV.
 
 df = pd.read_csv('NYC_Jobs.csv')
 
