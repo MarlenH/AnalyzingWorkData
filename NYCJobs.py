@@ -53,7 +53,7 @@ j = 0
 for i in range(len(SetToList)):
     indices = AgencyMapping[SetToList[i]]
     s = Sum(df.NumberOfPositions[indices].values)
-    if q > maxi:
+    if s > maxi:
         j = i
         maxi = s
 
